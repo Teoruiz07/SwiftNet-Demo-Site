@@ -1,0 +1,1190 @@
+body {
+    font-family: "Ubuntu", sans-serif;
+    overflow-x: hidden;
+}
+
+nav {
+    padding: 0;
+}
+
+.nav-l {
+    color: #ffffff;
+}
+.bg-img {
+    filter: brightness(0.6);
+    position: absolute;
+    z-index: -1;
+    object-fit: cover;
+}
+
+.brand-logo {
+  margin: 0;
+  padding: 0;
+}
+
+.brand-logo-h4 {
+    font-weight: 900;
+    margin: 0;
+}
+
+.brand-logo-p {
+    font-weight: 700;
+    font-size: 10px;
+    margin: 0;
+}
+
+.home-nav-dropdown {
+    background-color: transparent;
+    border: none;
+}
+
+.products-dropdown {
+    color: white;
+    border-radius: 16px;
+}
+
+.home-h1 {
+    color: white;
+    padding-top: 100px;
+    font-weight: 900;
+    font-size: 60px;
+    line-height: -0.50px;
+}
+
+.head-p {
+    color: white;
+    padding-right: 0px;
+    font-size: 20px;
+    font-weight: 100;
+
+}
+
+.home-header {
+    height: 672px;
+    overflow: hidden;
+}
+
+@media (max-width: 500px){
+    .home-h1 {
+        font-size: 50px;
+        padding-top: 20px;   
+    }
+    .head-p {
+        font-size: 15px;
+    }
+    .head-div {
+        padding: 15px;
+    }
+
+    
+}
+
+#product-msg {
+    padding-top: 50px;
+    text-align: center;
+}
+.internet-logo {
+    width: 50px;
+    margin-bottom: 10px;
+}
+
+.h-p-h2, .why-h2, .review-h2 {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.h-p-p, .why-div > p {
+    font-size: 14px;
+}
+
+#services {
+    margin-top: 15px;
+}
+
+.services-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 20px 20px 20px;
+   
+}
+
+.services-card {
+    height: 400px;
+    width: 280px;
+    margin: 0;
+    overflow: hidden;
+    border-radius: 15px;
+    border: none;
+    padding: 0;
+    transition: all 0.3s;
+}
+
+.services-img {
+    height: 400px;
+    object-fit: cover;
+}
+
+.intro {
+    height: 90px;
+    width: 280px;
+    padding: 6px;
+    box-sizing: border-box;
+    position: absolute;
+    top: 400px;
+    background: rgba(20, 20, 20, 0.603);
+    color: white;
+}
+
+.services-h2 {
+    margin: 5px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.services-p {
+    font-size: 12px;
+    margin: 5px;
+    visibility: hidden;
+    opacity: 0;
+}
+
+/*
+.services-card:hover {
+    cursor: pointer;
+    transform: scale(1.15);
+}
+*/
+.services-card:hover .intro {
+    height: 250px;
+    top: 150px;
+    transition: .5s;
+}
+
+.services-card:hover .services-p {
+    visibility: visible;
+    opacity: 1;
+}
+
+.i-h-p {
+    margin-bottom: 10px;
+}
+
+#inquiry {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 40px;  
+}
+
+.inquiry-item {
+    height: 550px;
+    transition: all 0.3s;
+}
+
+.inquiry-img {
+    height: 100%;
+    object-fit: cover;
+    border-radius: 16px;
+    filter: brightness(0.6);
+    object-position: top;
+}
+ #why {
+    background-color: #EBF4F6;
+    text-align: center;
+    padding: 25px 0 25px;
+    margin-bottom: 40px;
+ }
+
+ .why-h2 {
+    margin-bottom: 10px;
+ }
+ 
+ .why-card {
+  padding: 0 15px 0 15px;
+ }
+ .why-img {
+    width: 50px;
+    margin: 13px 0 10px 0;
+ }
+
+ .why-h3, .footer-h3 {
+    font-weight: 600;
+    font-family: sans-serif;
+    margin-bottom: 5px;
+    letter-spacing: -0.03em;
+ }
+
+ .why-inner-p, .name-p {
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: -0.45px;
+    line-height: 21px;
+ }
+
+ #review {
+    padding: 10px 0 10px;
+    text-align: center;
+    margin-bottom: 40px;
+ }
+
+ .review-h2 {
+    margin-bottom: 15px;
+ }
+
+ .review-card > img {
+    width: 40px;
+    margin: 20px 0 20px;
+ }
+
+ .review-card {
+    padding: 15px;
+    border-radius: 16px;
+    box-shadow: 0 5px 25px 0px rgba(0, 0, 0, .15);
+    width: 32%;
+    margin-left: 10px;
+ }
+
+ .review-p {
+    font-family: sans-serif;
+    font-weight: 600;
+    letter-spacing: -0.03em;
+    line-height: -0.45px;
+ }
+
+ .review-card-div > img {
+    width: 80px;
+    border-radius: 100%;
+ }
+
+ .review-card-div {
+    display: inline-block;
+    border-top: solid;
+    border-color: black;
+    border-width: 0.01px;
+    padding: 10px 0 10px;
+    margin: auto;
+ }
+
+ .name-p {
+    margin-bottom: 30px;
+ }
+
+ #footer {
+    background-color: rgb(235, 244, 246);
+    padding: 25px;
+    text-align: center;
+    margin-top: 20px;
+ }
+
+ .footer-h3 {
+    text-align: left;
+ }
+
+ .footer-ul {
+    list-style: none;
+    text-align: left;
+ }
+
+ .footer-ul > li > a {
+    text-decoration: none;
+    color: black;
+ }
+ .footer-ul > li {
+    margin-top: 5px;
+ }
+ .footer-social {
+    margin-top: 10px;
+ }
+ .footer-link {
+    color: black;
+    margin-right: 30px;
+ }
+
+ .c-24 {
+    margin-top: 10px;
+ }
+
+ /*Internet Page*/
+ .internet-navbar {
+    border-radius: 10px;
+    background-color: white;
+ }
+
+ .products-dropdown2, .internet-nav-link {
+    color: black;
+ }
+
+.internet-head-div {
+    background-image: url("../images/browsing.jpg");
+    height: 650px;
+    margin-top: 0;
+    border-radius: 0;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+
+.internet-h1-div {
+    background-color: white;
+    padding: 30px;
+    border-radius: 20px;
+    margin-top: 150px;
+    margin-left: 40px;
+    text-align: left;
+    box-shadow: 0 0 25px 0px rgba(0, 0, 0, .25);
+
+}
+
+.internet-h1-div > h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 40px;
+    letter-spacing: -0.03em;
+    margin-bottom: 16px;
+}
+
+.internet-h1-div > p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    list-style: -0.45px;
+    letter-spacing: -0.03em;
+    margin-bottom: 16px;
+}
+
+/*Residential Plan Section*/
+.residential-plan-div {
+    padding: 40px 0px 40px;
+    text-align: center;
+    margin-top: 0px;
+    border-radius: 20px;
+
+}
+
+.residential-plan-div > h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: -0.45px;
+    letter-spacing: -0.03em;
+    margin-bottom: 5px;
+}
+
+.residential-plan-div > p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    list-style: -0.45px;
+    letter-spacing: -0.03em;
+    margin-bottom: 20px;
+}
+
+.internet-price-card-div {
+    justify-content: center;
+}
+
+.internet-price-card {
+    padding: 20px;
+    background-color: white;
+    border-radius: 20px;
+    width: 24%;
+    margin: auto;
+    text-align: left;
+    margin-bottom: 25px;
+    box-shadow: 0 0 25px 0px rgba(0, 0, 0, .25);
+}
+
+.internet-price-card > h3 {
+    font-size: 20px;
+    font-weight: 600;
+    padding: 25px 0 0;
+    letter-spacing: -0.04em;
+}
+
+.internet-price-p {
+    font-size: 15px;
+    font-weight: normal;
+    letter-spacing: 0;
+    margin-bottom: 10px;
+}
+
+.internet-price {
+    font-size: 35px;
+    font-weight: 600;
+    margin: 0 0 10px 0;
+    line-height: -0.50px;
+    letter-spacing: -0.04em;
+}
+
+.internet-price-card > h6 {
+    font-size: 12px;
+    font-weight: normal;
+    line-height: -0.50px;
+    letter-spacing: -0.03em;
+    color: #0F67B1;
+    font-weight: 900;
+}
+
+.internet-price > span {
+    font-size: 15px;
+    font-weight: normal;
+    letter-spacing: 0;
+}
+
+.plans-feature {
+    margin-bottom: 4px;
+    font-size: 13px;
+    letter-spacing: -0.03em;
+    line-height: -0.45px;
+    text-decoration: dashed;
+}
+
+/*Internet Contact Section*/
+#internet-contact {
+    background-color: #0F67B1;
+    text-align: center;
+    padding: 15px 0 15px;
+    margin: 10px 0 10px;
+}
+
+.internet-contact-div > h3 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    letter-spacing: -0.03em;
+    line-height: -0.45px;
+    margin: 10px 0 10px 0;
+}
+
+.internet-contact-btn {
+    margin-bottom: 10px;
+}
+
+.internet-plan-disclaimer {
+    text-align: left;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.internet-plan-disclaimer-div {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.internet-dis-card {
+    padding: 20px;
+    margin-left: 0;
+    background-color: white;
+    height: 290px;
+    width: 45%;
+}
+
+
+
+.internet-plan-disclaimer > h2 {
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: -0.03em;
+    line-height: -0.45px;
+    margin-bottom: 10px;
+}
+
+.internet-disclaimer-h3 {
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: -0.03em;
+    line-height: -0.45px;
+    margin-bottom: 5px;
+}
+
+.internet-disclaimer-p {
+    font-size: 12px;
+    letter-spacing: -0.03em;
+    line-height: -0.45px;
+    margin-bottom: 20px;
+}
+
+.i-d-img {
+    width: 100px;
+}
+
+/*form page*/
+.internet-form-body {
+    background-image: url("../images/radio1.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.form-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    border-radius: 50px;
+}
+
+.plan-form {
+    width: 40%;
+    height: 600px;
+    box-shadow: 0 0 25px 0px rgba(0, 0, 0, .25);
+    background-color: #ffffff;
+    border-radius: 25px;
+    padding: 50px;
+}
+
+.plan-form > h1 {
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+
+.plan-form > label {
+    font-weight: 900;
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+
+.plan-form > input {
+    width: 100%;
+    height: 30px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding-left: 20px;
+    font-weight: 500;
+    outline: none;
+}
+
+#address {
+    height: 100px;
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding-left: 20px;
+    font-weight: 500;
+}
+
+.plan-form > button {
+    width: 50%;
+    padding: 10px 20px 10px 20px;
+    border-radius: 8px;
+    font-size: 20px;
+    background-color: #F7E7DC;
+    border-color: #F7E7DC;
+}
+
+.plan-form > button:hover {
+    background-color: #758694;
+    border-color: #758694;
+    color: #ffffff;
+}
+
+.plan-form > input:focus, #address:focus {
+    border: 4px solid #405D72;
+}
+
+#Plan {
+    font-weight: 700;
+}
+
+/*Contact Us Page*/
+#contact-us-body {
+    background-image: url(../images/contact_us.jpg);
+}
+
+#message {
+    height: 150px;
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding-left: 20px;
+    font-weight: 500;
+}
+
+.contact-form {
+    width: 40%;
+    height: 600px;
+    box-shadow: 0 0 25px 0px rgba(0, 0, 0, .25);
+    background-color: #ffffff;
+    border-radius: 25px;
+    padding: 50px;
+}
+
+.contact-form > h1 {
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+
+.contact-form > label {
+    font-weight: 900;
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+
+.contact-form > input {
+    width: 100%;
+    height: 30px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding-left: 20px;
+    font-weight: 500;
+    outline: none;
+}
+
+.contact-form > button {
+    width: 50%;
+    padding: 10px 20px 10px 20px;
+    border-radius: 8px;
+    font-size: 20px;
+    background-color: #F7E7DC;
+    border-color: #F7E7DC;
+}
+
+.contact-form > button:hover {
+    background-color: #758694;
+    border-color: #758694;
+    color: #ffffff;
+}
+
+.contact-form > input:focus, #address:focus {
+    border: 4px solid #405D72;
+}
+
+/*Cybersecurity Page*/
+.cybersecurity-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 40px 0 40px 0;
+}
+
+.cybersecurity-head-left, .cybersecurity-head-right {
+    width: 50%;
+    padding: 20px;
+    margin: 0;
+}
+
+.cybersecurity-head-right {
+    text-align: justify;
+    padding-left: 30px;
+}
+
+.cybersecurity-head-right > h2 {
+    font-weight: 900;
+    margin-top: 150px;
+    font-size: 50px;
+}
+
+.cybersecurity-head-right > p {
+    margin-top: 15px;
+    font-size: 15px;
+}
+
+.cybersecurity-head-right > a {
+    margin-top: 40px;
+}
+
+.cybersecurity-head-left > img {
+    width: 100%;
+}
+
+/*Cyber Security Features Section*/
+#cyber-features {
+    text-align: center;
+}
+#cyber-features > h2 {
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+.cyber-features-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 20px 70px 20px 70px;
+}
+
+.cyber-feature-left, .cyber-feature-right {
+    width: 48%;
+    text-align: left;
+    height: 685px;
+}
+
+.cyber-feature-right > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 25px;
+}
+
+.cyber-feature-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+}
+
+.cyber-feature-list-div {
+    border-radius: 15px;
+    padding: 15px;
+    margin-bottom: 10px;
+    box-shadow: 0 0 25px 0px rgba(0, 0, 0, .15);
+    transition: all 0.3s;
+    background-color: #F5F7F8;
+}
+
+.cyber-feature-list-div:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.cyber-feature-list-div > h3 {
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.cyber-feature-list-div > p {
+    font-size: 12px;
+    font-weight: 400;
+    margin: 0 0 0 5px;
+    letter-spacing: -0.03em;
+}
+
+/*Network Page*/
+#network-head-sec {
+    background-image: url(../images/networking_head.jpg);
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+}
+.network-head-div {
+    height: 500px;
+    padding: 150px 500px 150px 0;
+}
+
+.network-head-div > h2 {
+   font-weight: 700;
+   font-size: 20px;
+   margin: 0;
+   color: #ffffff;
+}
+
+.network-head-div > p {
+    font-size: 50px;
+    color: #ffffff;
+    line-height: -0.45px;
+}
+
+.network-dis-div {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    padding: 100px;
+    box-shadow: 0 0 25px 0px rgba(0, 0, 0, .15);
+}
+
+.network-dis-div > h3 {
+    color: #0F67B1;
+    font-size: 38px;
+    line-height: 45px;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+.network-dis-div > p {
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.network-service-div {
+    margin-bottom: 20px;
+}
+
+.net-offer {
+    width: 100%;
+    height: 60px;
+    font-size: 20px;
+    text-align: left;
+    padding: 17px 23px 16px 23px;
+    background-color: #F5F7F8;
+    color: #0F67B1;
+    outline: none;
+    border: none;
+    margin: 10px;
+    display: flex;
+    font-size: 17px;
+}
+
+.net-offer:hover {
+    background-color: #0F67B1;
+    color: #ffffff;
+}
+
+.net-offer > i {
+    margin-left: auto;
+}
+
+.net-offer > i
+
+.net-offer-p {
+    font-size: 20px;
+    line-height: 28px;
+    display: none;
+}
+
+.net-p-div {
+    padding: 20px;
+    height: 80px;
+    display: none;
+}
+
+/*About Us Page*/
+#about-head {
+    background-image: url(../images/about_us.jpg);
+    height: 500px;
+    background-position: top;
+    background-size: cover;
+}
+
+.about-head-div {
+    height: 500px;
+    padding: 150px 500px 150px 0;
+}
+
+.about-head-div > h2 {
+    font-weight: 700;
+    font-size: 20px;
+    margin: 0;
+    color: #ffffff;
+ }
+
+ .about-head-div > p {
+    font-size: 50px;
+    color: #ffffff;
+    line-height: -0.45px;
+}
+
+#about-body {
+    height: 400px;
+    margin: 30px 0 30px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-body-div > h3 {
+    color: #0F67B1;
+}
+
+/*Web Design Page*/
+#web-head {
+    background-image: url(../images/website.jpg);
+    height: 600px;
+    background-position: top;
+    background-size: cover;
+}
+
+.web-head-div {
+    height: 600px;
+    padding: 40px;
+}
+
+.web-head-div > h2 {
+    font-weight: 700;
+    font-size: 25px;
+    letter-spacing: -0.03em;
+}
+
+.web-head-div > p {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+#web-body {
+    margin: 30px 0 30px 0;
+}
+
+.web-body-div {
+    box-shadow: 0 0 25px 0px rgba(0, 0, 0, .15);
+    padding: 150px;
+    text-align: justify;
+}
+
+.web-body-div > h3 {
+    color: #0F67B1;
+    font-size: 50px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.web-body-div > p {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.web-body-div > a {
+    margin-top: 30px;
+}
+
+/*Privacy Policy*/
+#privacy-head {
+    background-image: url(../images/privacy.jpg);
+    height: 600px;
+    background-position: top;
+    background-size: cover;
+}
+
+#privacy-body {
+    margin: 30px 0 30px 0;
+}
+
+.privacy-body-div {
+    box-shadow: 0 0 25px 0px rgba(0, 0, 0, .15);
+    padding: 150px;
+    text-align: justify;
+}
+
+.privacy-body-div > h3 {
+    color: #0F67B1;
+    font-size: 50px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.privacy-body-div > p {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+/*Terms Of Service*/
+#terms-head {
+    background-image: url(../images/Terms-of-service.jpg);
+    height: 600px;
+    background-position: top;
+    background-size: cover;
+}
+
+#terms-body {
+    margin: 30px 0 30px 0;
+}
+
+.terms-body-div {
+    box-shadow: 0 0 25px 0px rgba(0, 0, 0, .15);
+    padding: 150px;
+    text-align: justify;
+}
+
+.terms-body-div > h3 {
+    color: #0F67B1;
+    font-size: 50px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.terms-body-div > p {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 500px) {
+    .internet-price-card {
+        width: 90%;
+    }
+
+    .internet-plan-disclaimer-div {
+        flex-direction: column;
+        
+    }
+
+    .internet-dis-card {
+        width: 100%;
+    }
+
+    .review-card {
+        width: 90%;
+        margin-bottom: 10px;
+    }
+    
+    .plan-form {
+        width: 100%;
+        height: 650px;
+    }
+
+    .contact-form {
+        width: 100%;
+        height: 500;
+    }
+
+    .plan-form > button {
+        width: 60%;
+    }
+
+    .contact-form > button {
+        width: 60%;
+    }
+    
+    .cybersecurity-header {
+        flex-direction: column;
+    }
+
+    .cybersecurity-head-left, .cybersecurity-head-right {
+        padding: 0;
+        width: 100%;
+    }
+
+    .cyber-features-div {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .cyber-feature-left, .cyber-feature-right {
+        width: 100%;
+        height: 800px;
+        margin-bottom: 20px;
+    }
+
+    .network-head-div {
+        padding: 300px 70px 200px 10px;
+    }
+
+    .network-head-div > p {
+        font-size: 30px;
+    }
+
+    .network-dis-div {
+        padding: 10px;
+    }
+
+    .network-dis-div > h3 {
+        font-size: 29px;
+    }
+
+    .net-offer-p {
+        font-size: 14px;
+    }
+
+    .net-p-div {
+        padding: 10px;
+        height: 120px;
+    }
+
+    .about-head-div {
+        padding: 150px 30px 150px 30px;
+    }
+
+    .about-head-div > h2 {
+        font-size: 15px;
+    }
+
+    .about-head-div > p {
+        font-size: 35px;
+    }
+
+    .web-head-div {
+      padding: 400px 10px 10px 10px;
+    }
+
+    .web-body-div {
+        padding: 30px;
+        text-align: left;
+    }
+
+    .privacy-body-div {
+        padding: 30px;
+        text-align: left;
+    }
+
+    .terms-body-div {
+        padding: 30px;
+        text-align: left;
+    }
+}
+
+@media (max-width: 1080px) and (min-width: 500px) {
+    .internet-price-card {
+        width: 45%;
+    }
+
+    .review-card {
+        width: 90%;
+        margin-bottom: 10px;
+    }
+
+    .plan-form {
+        width: 90%;
+    }
+
+    .cybersecurity-header {
+        flex-direction: column;
+    }
+
+    .cybersecurity-head-left, .cybersecurity-head-right {
+        padding: 0;
+        width: 100%;
+        margin: 0;
+    }
+
+    .cybersecurity-header {
+        flex-direction: column;
+    }
+
+    .cybersecurity-head-left, .cybersecurity-head-right {
+        padding: 0;
+        width: 100%;
+    }
+
+    .cyber-features-div {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .cyber-feature-left, .cyber-feature-right {
+        width: 100%;
+    }
+
+    .cyber-feature-left {
+        margin-bottom: 30px;
+    }
+
+    .network-head-div {
+        padding: 500px 70px 200px 10px;
+    }
+
+    .about-head-div {
+        padding: 150px 30px 150px 30px;
+    }
+
+    .about-head-div > h2 {
+        font-size: 15px;
+    }
+
+    .about-head-div > p {
+        font-size: 35px;
+    }
+
+    .web-head-div {
+        padding: 450px 10px 10px 10px;
+      }
+
+    .web-body-div {
+        padding: 50px;
+        text-align: left;
+    }
+
+    .privacy-body-div {
+        padding: 50px;
+        text-align: left;
+    }
+
+    .terms-body-div {
+        padding: 50px;
+        text-align: left;
+    }
+}
